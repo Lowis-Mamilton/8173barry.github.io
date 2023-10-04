@@ -62,7 +62,7 @@ header .navbar a:hover {
 /*home*/
 
 .home {
-    max-width: 800px;
+    max-width: 1000px;
     min-height: 400px;
     margin: 7rem auto;
     padding: 2rem;
