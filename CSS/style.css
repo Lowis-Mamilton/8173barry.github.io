@@ -69,19 +69,57 @@ header .navbar a:hover {
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+.home .motto {
+    font-size: 50px;
+}
 
 /*contact*/
 .contact {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    min-height: 300px;
-    align-items: center;
-    background-size: cover;
-    background-position: right;    
+    max-width: 1000px;
+    min-height: 400px;
+    margin: 7rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);   
 }
 
+.contact .row form .inputbox input, .contact .row form textarea {
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    color: black;
+    text-transform: none;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
 
+.contact .row form textarea {
+    width: 100%;
+    resize: none;
+    height: 200px;
+    margin: 5px;
+}
+
+.contact .row form .btn1 {
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(1, 158, 189);
+
+}
+
+.contact .row form .btn1:hover {
+    background-color: rgb(1, 158, 189);
+    font-size: 22px;
+    box-shadow: inset 400px 0 0 0 rgb(1, 158, 189);
+    transition: 0.5s all;
+}
 
 /*donate*/
 
