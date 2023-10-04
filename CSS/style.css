@@ -114,7 +114,7 @@ header .navbar a:hover {
 .contact {
     max-width: 1000px;
     min-height: 400px;
-    margin: 7rem auto;
+    margin: 10rem auto;
     padding: 2rem;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);   
@@ -163,11 +163,25 @@ header .navbar a:hover {
 
 
 /*product*/
-
+.product {
+    max-width: 1000px;
+    min-height: 400px;
+    margin: 7rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);   
+}
 
 
 /*common*/
-
+.common {
+    max-width: 1000px;
+    min-height: 400px;
+    margin: 7rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);   
+}
 
 
 
