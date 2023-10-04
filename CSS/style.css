@@ -59,15 +59,52 @@ header .navbar a:hover {
 }
 
 
-/*Description*/
+/*home*/
 
+.home {
+    max-width: 800px;
+    min-height: 400px;
+    margin: 7rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/*contact*/
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    min-height: 300px;
+    align-items: center;
+    background-size: cover;
+    background-position: right;    
+}
+
+
+
+/*donate*/
+
+
+
+/*product*/
+
+
+
+/*common*/
 
 
 
 
 /*footer*/
 
-
+footer {
+    height: 120px;
+    color: #fff;
+    text-align: center;
+    background-color: #333;
+    
+}
 
 
 /*mobile mode*/
