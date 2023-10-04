@@ -62,7 +62,7 @@ header .navbar a:hover {
 /*home*/
 
 .home {
-    max-width: 1000px;
+    max-width: 1200px;
     min-height: 400px;
     margin: 7rem auto;
     padding: 2rem;
@@ -71,7 +71,44 @@ header .navbar a:hover {
 }
 .home .motto {
     font-size: 50px;
+    padding: 100px;
 }
+
+.home .servicetypes .table {
+    width: 100%;
+}
+
+
+
+.home .servicetypes .table .typebox, .home .servicetypes .table .typebox .imgt{
+    color: black;
+    font-size: 20px;
+    width: 200px;
+    flex: 1 1 30px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid white;
+
+}
+
+.home .servicetypes .table .typebox:hover {
+    border: 5px solid rgb(1, 158, 189);
+    color: white;
+    border-radius: 5px;
+    width: 210px;
+    font-size: 30px;
+    transition: 0.3s all;
+    background-color: rgb(1, 158, 189);
+
+}
+
+.home .partner {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 1rem auto;
+}
+
 
 /*contact*/
 .contact {
