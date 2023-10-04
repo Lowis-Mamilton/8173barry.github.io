@@ -214,6 +214,11 @@ footer {
 
     }
 
+    .home .servicetypes .table .typebox, .home .servicetypes .table .typebox .imgt{
+        width: 50px;
+        font-size: 5px;
+    }
+
 }
 
 
