@@ -233,7 +233,7 @@ footer .gitbtn svg {
     fill: none;
     stroke-linecap: round;
     stroke-linejoin: round;
-    stroke: #111111;
+    stroke: #fff;
     stroke-width: 2;
     transform: translateX(-5px);
     transition: all 0.3s ease;
@@ -247,7 +247,7 @@ footer .gitbtn:hover svg {
 }
 footer .gitbtn:hover,
 footer .gitbtn:focus {
-    color: #111111;
+    color: #fff;
 }
 footer .gitbtn:active {
     color: #111111;
