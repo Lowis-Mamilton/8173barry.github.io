@@ -195,6 +195,65 @@ footer {
     
 }
 
+footer .gitbtn {
+    color: #fff;
+    position: relative;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    padding: 12px 20px;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+footer .gitbtn:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 28px;
+    background: rgba(1, 158, 189, 0.5);
+    width: 56px;
+    height: 56px;
+    transition: all 0.3s ease;
+}
+footer .gitbtn span {
+    position: relative;
+    z-index: 1;
+}
+footer .gitbtn svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #111111;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+}
+footer .gitbtn:hover:before {
+    width: 100%;
+    background: rgb(1, 158, 189);
+}
+footer .gitbtn:hover svg {
+    transform: translateX(0);
+}
+footer .gitbtn:hover,
+footer .gitbtn:focus {
+    color: #111111;
+}
+footer .gitbtn:active {
+    color: #111111;
+    transform: scale(0.96);
+}
+
 
 /*mobile mode*/
 @media (max-width:800px) {
