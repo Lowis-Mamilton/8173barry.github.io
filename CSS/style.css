@@ -210,8 +210,49 @@ footer .gitbtn {
     align-items: center;
     justify-content: center;
 }
-
-
+footer .gitbtn:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 28px;
+    background: rgba(1, 158, 189, 0.5);
+    width: 56px;
+    height: 56px;
+    transition: all 0.3s ease;
+}
+footer .gitbtn span {
+    position: relative;
+    z-index: 1;
+}
+footer .gitbtn svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #fff;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+}
+footer .gitbtn:hover:before {
+    width: 100%;
+    background: rgb(1, 158, 189);
+}
+footer .gitbtn:hover svg {
+    transform: translateX(0);
+}
+footer .gitbtn:hover,
+footer .gitbtn:focus {
+    color: #fff;
+}
+footer .gitbtn:active {
+    color: #111111;
+    transform: scale(0.96);
+}
 
 /*mobile mode*/
 @media (max-width:800px) {
