@@ -62,9 +62,7 @@ header .navbar a:hover {
 /*home*/
 
 .home {
-    max-width: 1200px;
-    min-height: 400px;
-    margin: 7rem auto;
+    margin-top: 120px;
     padding: 2rem;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -164,12 +162,19 @@ header .navbar a:hover {
 
 /*product*/
 .product {
-    max-width: 1000px;
-    min-height: 400px;
-    margin: 7rem auto;
-    padding: 2rem;
+    margin-top: 120px;
     background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);   
+}
+.product .productbox img{
+    width: 100px;
+    border: 2px solid black;
+}
+
+.product .productbox .productimg {
+    object-fit: cover;
+    position: absolute;
+    top: 0%;
+    left: -100%;
 }
 
 
@@ -217,7 +222,7 @@ footer .gitbtn:before {
     left: 0;
     display: block;
     border-radius: 28px;
-    background: rgba(1, 158, 189, 0.5);
+    background: rgba(176,1,180, 0.5);
     width: 56px;
     height: 56px;
     transition: all 0.3s ease;
@@ -240,7 +245,7 @@ footer .gitbtn svg {
 }
 footer .gitbtn:hover:before {
     width: 100%;
-    background: rgb(1, 158, 189);
+    background: rgb(176,1,180);
 }
 footer .gitbtn:hover svg {
     transform: translateX(0);
